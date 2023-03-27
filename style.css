@@ -29,13 +29,14 @@ header{
     list-style: none;
 }
 
-.navbar ul li{
+.navbar ul li a{
     padding: 50px;
     cursor: pointer;
     font-size: 22px;
+    text-decoration: none;
 }
 
-.navbar ul li:hover{
+.navbar ul li a:hover{
     color: darkred;
 }
 
@@ -84,6 +85,7 @@ main{
 .apresentaçao p{
     margin-top: 15px;
     font-size: 27px;
+    padding-left: 20px;
 }
 
 footer{
