@@ -117,14 +117,15 @@ footer{
   }
   .apresentaçao{
     margin-left: 50px;
+    font-size: 20px;
   }
   .publi{
     width: 390px;
   }
   .publi img{
-    width: auto;
+    width: 390px;
   }
   footer{
-    margin-top: 410px;
+    margin-top: 403px;
   }
 }
