@@ -96,3 +96,35 @@ footer{
     text-shadow: 5px 5px 5px white;
     background-color: black;
 }
+
+@media (max-width:450px){
+  .barra-de-navegacao ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .navbar ul a {
+    color: aliceblue;
+  }
+  
+  .logo{
+    width: 10px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .apresentaçao{
+    margin-left: 50px;
+  }
+  .publi{
+    width: 390px;
+  }
+  .publi img{
+    width: auto;
+  }
+  footer{
+    margin-top: 410px;
+  }
+}
