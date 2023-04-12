@@ -2,7 +2,6 @@ const form = document.querySelector("#form")
 const nameInput = document.querySelector("#name")
 const emailInput = document.querySelector("#email")
 const passwordInput = document.querySelector("#password")
-const jobSelectec = document.querySelector("#message")
 const menssageTextarea = document.querySelector("#message")
 
 form.addEventListener("submit",(event) => {
@@ -20,11 +19,6 @@ form.addEventListener("submit",(event) => {
         alert("A senha precisa ser no minimo 8 digitos");
         return;
     }
-
-    if(jobSelectec.value ===""){
-        alert("Selecione A Sua Situação");
-        return;
-    } 
 
     if(menssageTextarea.value ===""){
         alert("Não Deixe O campo Vazio");

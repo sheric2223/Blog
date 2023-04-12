@@ -4,7 +4,14 @@ body{
 }
 
 header{
-    background-color: rgb(72, 0, 255);
+    background-color: black;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+  color: azure;
+  text-shadow: red 5px 5px 5px;
 }
 
 .barra-de-navegacao{
@@ -34,15 +41,21 @@ header{
     cursor: pointer;
     font-size: 22px;
     text-decoration: none;
-    color: #000;
+    color: white;
+    text-shadow: red 5px 5px 5px
 }
 
 .navbar ul li a:hover{
-    color: darkred;
+    color: cyan;
+}
+
+.apresentaçao{
+  color: aliceblue;
+  text-shadow: red 2px 0px 5px;
 }
 
 main{
-    background-color: blueviolet;
+    background-color: #999;
     height: 500px;
 }
 
@@ -52,7 +65,7 @@ main{
 }
 
 .apresentaçao{
-    background-color: cadetblue;
+    background-color: rgb(27, 64, 138);
     width: 300px;
     height: 400px;
     margin-left: 9px;
@@ -70,7 +83,7 @@ main{
 .slideshowarea{
   width: 10000px;
   height: 400px;
-  transition: all 3s;
+  
 }
 
 .slide-title{
@@ -90,7 +103,7 @@ main{
   float: left;
   margin-right: 5px;
   cursor: pointer;
-  background-color: #1d0303;
+  background-color: cyan;
   border-radius: 10px;
 }
 
@@ -102,7 +115,6 @@ main{
   background-size: cover;
   background-position: center;
 }
-
 
 .apresentaçao input{
     margin-left: 15px;
