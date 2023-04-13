@@ -83,7 +83,7 @@ main{
 .slideshowarea{
   width: 10000px;
   height: 400px;
-  
+  transition: 2s;
 }
 
 .slide-title{
@@ -114,6 +114,24 @@ main{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.txt-do-slide{
+  margin-top: 340px;
+  background-color:darkcyan;
+  height: 60px;
+}
+
+.txt-do-slide a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.txt-do-slide p {
+  color: white;
+  margin-top: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .apresentaçao input{

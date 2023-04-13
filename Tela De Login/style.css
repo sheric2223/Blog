@@ -30,7 +30,9 @@ form input{
     justify-content: center;
     margin-left: 60px;
     margin-top: 10px;
-    color: cadetblue;
+    color: aqua;
+    text-shadow: white 5px 5px 5px;
+    background-color: black;
 }
 
 #btn:hover{
