@@ -180,6 +180,7 @@ footer{
   
   .logo{
     width: 10px;
+    padding-top: 40px;
   }
   .container{
     display: flex;
