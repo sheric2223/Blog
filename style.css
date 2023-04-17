@@ -171,6 +171,7 @@ footer{
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+    line-height: 50px;
   }
 
   .navbar ul a {
