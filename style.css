@@ -188,12 +188,16 @@ footer{
     margin-left: 50px;
     font-size: 15px;
   }
-  .slideshowarea{
-    width: 391px;
+
+  .slideshow{
+    background-color: aqua;
+    width: 390px;
   }
+
   .slide{
-    width: 391px;
+    width: 390px;
   }
+
   footer{
     margin-top: 403px;
   }
