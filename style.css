@@ -186,12 +186,13 @@ footer{
   }
   .apresentaçao{
     margin-left: 50px;
-    font-size: 15px;
+    font-size: 10px;
+
   }
 
   .slideshow{
     background-color: aqua;
-    width: 390px;
+    width: 395px;
   }
 
   .slide{
