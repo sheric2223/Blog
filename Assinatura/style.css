@@ -79,3 +79,23 @@ form label{
     color: black;
     transition: 4s;
 }
+
+
+@media (max-width:450px){
+    .pagamento{
+        display: flex;
+        flex-direction: column;
+        margin-top: -100px;
+    }
+    .descricao{
+        width: 400px;
+        padding-left: 15px;
+        box-shadow: none;
+    }
+    .form-pagamento{
+        margin-top: 10px;
+    }
+    form{
+        margin-top: 50px;
+    }
+}
