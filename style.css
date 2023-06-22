@@ -173,11 +173,6 @@ footer{
     padding-left: 20px;
     line-height: 50px;
   }
-
-  .navbar ul a {
-    color: aliceblue;
-  }
-  
   .logo{
     width: 10px;
     padding-top: 40px;
@@ -204,4 +199,5 @@ footer{
     margin-top: 403px;
     font-size: 15px;
   }
+
 }
